@@ -51,3 +51,44 @@ body {
 .muted {
   color: #666;
 }
+
+.hero-img, #quote, #author {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.hero-img.show, #quote.show, #author.show {
+  opacity: 1;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0; padding: 0;
+  background: #f0f0f0;
+}
+
+.hero-inner {
+  padding: 20px;
+  text-align: center;
+}
+
+.hero-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
