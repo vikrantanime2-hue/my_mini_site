@@ -1,0 +1,2 @@
+cd "C:\Users\dell\OneDrive\Documents"
+python jarvis_advanced.py
